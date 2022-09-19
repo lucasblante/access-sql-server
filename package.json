@@ -1,0 +1,19 @@
+{
+  "name": "access-sql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Lucas Blante",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
